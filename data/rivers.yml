@@ -1,3 +1,8 @@
+#
+# Klasa: River
+# lista rzek
+#
+
 - { name: "The Nile", length: 1234 }
 - { name: "The Thames", length: 9876 }
 - { name: "Mississipi", length: 3434 }
