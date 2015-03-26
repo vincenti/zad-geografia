@@ -18,13 +18,10 @@ fi
 
 mysql -u root < "${BASEDIR}/00-extra/db/create-empty-database.sql"
 
-php "${BASEDIR}/app/console" cache:clear --env=prod
-php "${BASEDIR}/app/console" cache:warmup --env=prod
-
-php "${BASEDIR}/app/console" cache:clear
-php "${BASEDIR}/app/console" cache:warmup
+rm -rf /app/symfony2app/app/cache/*
 
 php "${BASEDIR}/app/console" doctrine:schema:update --force
+php "${BASEDIR}/app/console" doctrine:fixtures:load
 
 sudo chmod -R 0777 /app/symfony2app
 sudo chown -R "${WHOAMI}:${WHOAMI}" /app/symfony2app
