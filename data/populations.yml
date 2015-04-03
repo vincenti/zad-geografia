@@ -1,0 +1,8 @@
+#
+# Klasa: Population
+# populacja ludzi na wybranych kontynentach
+#
+
+- { continent: "Asia", population: 4298000000 }
+- { continent: "Africa", population: 1111000000 }
+- { continent: "Europe", population: 742000000 }
