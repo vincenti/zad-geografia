@@ -6,21 +6,32 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Population
+ *
+ * @ORM\Table()
+ * @ORM\Entity
  */
 class Population
 {
     /**
      * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
 
     /**
      * @var string
+     *
+     * @ORM\Column(name="continent", type="string", length=255)
      */
     private $continent;
 
-    /**
-     * @var integer
+     /**
+     * @var bigint
+     *
+     * @ORM\Column(name="population", type="bigint")
      */
     private $population;
 
@@ -28,7 +39,7 @@ class Population
     /**
      * Get id
      *
-     * @return integer 
+     * @return bigint 
      */
     public function getId()
     {
@@ -61,7 +72,7 @@ class Population
     /**
      * Set population
      *
-     * @param integer $population
+     * @param bigint $population
      * @return Population
      */
     public function setPopulation($population)
@@ -74,7 +85,7 @@ class Population
     /**
      * Get population
      *
-     * @return integer 
+     * @return bigint 
      */
     public function getPopulation()
     {
