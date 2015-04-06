@@ -1,0 +1,8 @@
+#
+# Klasa: Cave
+# rodzaje jaskin
+#
+
+- { name: "Solutional cave", example: "Lechuguilla Cave in New Mexico" }
+- { name: "Primary cave", example: "Thurston Lava Tube in Hawaii Volcanoes National Park" }
+- { name: "Sea cave or littoral cave", example: "Painted Cave, a large sea cave, Santa Cruz Island, California" }
