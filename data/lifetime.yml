@@ -1,0 +1,10 @@
+#
+# Klasa: lifetime
+# przecietna dlugosc zycia
+#
+
+
+- { name: "Japonia", mezczyzni: 78 , kobiety: 85 }
+- { name: "Norwegia", mezczyzni: 77 , kobiety: 82 }
+- { name: "Niemcy", mezczyzni: 75 , kobiety: 82 }
+- { name: "Polska", mezczyzni: 75 , kobiety: 80 }
