@@ -1,0 +1,8 @@
+#
+# Klasa: Powerplant
+# lista elektrowni
+#
+
+- { location: "Pocking, Germany", power: 22}
+- { location: "Sarnia, Canada", power: 97}
+- { location: "Golmud, China", power: 200}
