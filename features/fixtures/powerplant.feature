@@ -1,6 +1,6 @@
-Feature: Fikstury dla tabeli powerplant
+Feature: Fikstury dla tabeli power plant
 
-  Scenario: Lista fixtur z tabeli powerplant
+  Scenario: Lista fixtur z tabeli power plant
     Given I am on "powerplants.html"
      Then I should see "Pocking, Germany"
       And I should see "22"
