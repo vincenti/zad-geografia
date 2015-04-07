@@ -1,0 +1,8 @@
+#
+# Klasa: Flora
+# lista roslin
+#
+
+- { tree: "Palm", height: 60 }
+- { tree: "Limetree", height: 40 }
+- { tree: "Hornbeam", height: 25 }
