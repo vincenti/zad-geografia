@@ -1,0 +1,21 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Country</th>
+            <th>Temperature</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td>{{ loop.index }}</td>
+                <td>{{ entity.country }}</td>
+                <td>{{ entity.temperature }}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
