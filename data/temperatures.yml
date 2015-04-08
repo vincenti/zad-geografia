@@ -1,0 +1,8 @@
+#
+# Klasa: Temperature
+# największe zanotowane temperatury
+#
+
+- { country: "Poland", temperature: 40.2 }
+- { country: "Brazil", temperature: 44.7 }
+- { country: "Spain", temperature: 47.2 }
