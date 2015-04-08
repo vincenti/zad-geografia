@@ -6,21 +6,32 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Country
+ *
+ * @ORM\Table()
+ * @ORM\Entity
  */
 class Country
 {
     /**
      * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
 
     /**
      * @var string
+     *
+     * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
 
     /**
      * @var integer
+     *
+     * @ORM\Column(name="area", type="integer")
      */
     private $area;
 
