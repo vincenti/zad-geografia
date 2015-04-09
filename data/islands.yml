@@ -1,0 +1,8 @@
+#
+# Klasa: Island
+# największe wyspy (powierzchnia w km2)
+#
+
+- { name: "Greenland", area: 2175597 }
+- { name: "New Guinea", area: 800311 }
+- { name: "Borneo", area: 744108 }
