@@ -20,9 +20,9 @@ class LoadCity implements FixtureInterface
         $filename = __DIR__ . '/../../../../data/city.yml';
         $yml = Yaml::parse(file_get_contents($filename));
         foreach ($yml as $item) {
-            $city = new River();
+            $city = new City();
             $city->setName($item['name']);
-            $city->setLength($item['area']);
+            $city->setArea($item['area']);
             $manager->persist($city);
         }
 
