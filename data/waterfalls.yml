@@ -1,0 +1,8 @@
+#
+# Klasa: Waterfall
+# lista wodospadów
+#
+
+- { name: "Iguazu Falls", number_of_drops: 275 }
+- { name: "Niagara Falls", number_of_drops: 3 }
+- { name: "Victoria Falls", number_of_drops: 1 }
