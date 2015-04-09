@@ -1,0 +1,8 @@
+#
+# Klasa: Country
+# kraje (powierzhnia km^2)
+#
+
+- { name: "Ukraine", area: 603628 }
+- { name: "Poland", area: 312679 }
+- { name: "Germany", area: 357021 }
