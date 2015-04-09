@@ -1,0 +1,8 @@
+#
+# Klasa: Sea
+# lista mórz
+#
+
+- { name: "The Black Sea", area: 436 }
+- { name: "The Baltic Sea", area: 377 }
+- { name: "The Irish Sea", area: 46 }
