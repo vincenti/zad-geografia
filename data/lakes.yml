@@ -1,0 +1,8 @@
+#
+# Klasa: Lake
+# lista jezior
+#
+
+- { name: "Chad", depth: 11 }
+- { name: "Baikal", depth: 1642 }
+- { name: "Tahoe", depth: 501 }
