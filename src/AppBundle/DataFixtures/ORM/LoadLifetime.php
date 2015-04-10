@@ -22,8 +22,8 @@ class LoadLifetime implements FixtureInterface
         foreach ($yml as $item) {
             $lifetime = new Lifetime();
             $lifetime->setName($item['name']);
-            $lifetime->setLength($item['mezczyzni']);
-            $lifetime->setLength($item['kobiety']);
+            $lifetime->setMezczyzni($item['mezczyzni']);
+            $lifetime->setKobiety($item['kobiety']);
             $manager->persist($lifetime);
         }
 
