@@ -1,0 +1,8 @@
+#
+# Klasa: Upland
+# lista wyżyn
+#
+
+- { name: "Lubelska", area: 10300 }
+- { name: "Małopolska", area: 12100 }
+- { name: "Krakowska", area: 9700 }
