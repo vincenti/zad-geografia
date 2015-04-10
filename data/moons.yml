@@ -1,0 +1,8 @@
+#
+# Klasa: Moon
+# lista księżyców
+#
+
+- { name: "Himalia", radius: 85 }
+- { name: "Dysnomia", radius: 342 }
+- { name: "Io", radius: 1818 }
