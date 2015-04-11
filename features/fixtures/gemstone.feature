@@ -7,5 +7,5 @@ Feature: Fikstury dla tabeli gemstone
      Then I should see "Arco Valley Pearl"
       And I should see "575"
      Then I should see "Logan Sapphire"
-      And I should see "422"
+      And I should see "499"
 
