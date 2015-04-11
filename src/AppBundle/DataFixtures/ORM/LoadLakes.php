@@ -7,9 +7,9 @@ use Doctrine\Common\Persistence\ObjectManager;
 
 use Symfony\Component\Yaml\Yaml;
 
-use AppBundle\Entity\Lifetime;
+use AppBundle\Entity\Lake;
 
-class LoadLifetime implements FixtureInterface
+class LoadLakes implements FixtureInterface
 {
     /**
      * {@inheritDoc}
@@ -17,14 +17,13 @@ class LoadLifetime implements FixtureInterface
     public function load(ObjectManager $manager)
     {
 
-        $filename = __DIR__ . '/../../../../data/lifetime.yml';
+        $filename = __DIR__ . '/../../../../data/lakes.yml';
         $yml = Yaml::parse(file_get_contents($filename));
         foreach ($yml as $item) {
-            $lifetime = new Lifetime();
-            $lifetime->setName($item['name']);
-            $lifetime->setMezczyzni($item['mezczyzni']);
-            $lifetime->setKobiety($item['kobiety']);
-            $manager->persist($lifetime);
+            $lake = new Lake();
+            $lake->setName($item['name']);
+            $lake->setDepth($item['depth']);
+            $manager->persist($lake);
         }
 
         $manager->flush();

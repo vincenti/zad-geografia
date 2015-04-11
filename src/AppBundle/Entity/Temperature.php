@@ -6,10 +6,13 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * Temperature
+ *
+ * @ORM\Table()
+ * @ORM\Entity
  */
 class Temperature
 {
-     /**
+    /**
      * @var integer
      *
      * @ORM\Column(name="id", type="integer")
@@ -18,14 +21,14 @@ class Temperature
      */
     private $id;
 
-     /**
+    /**
      * @var string
      *
      * @ORM\Column(name="country", type="string", length=255)
      */
     private $country;
 
-     /**
+    /**
      * @var float
      *
      * @ORM\Column(name="temperature", type="float")

@@ -5,12 +5,12 @@ namespace AppBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * City
+ * Lake
  *
  * @ORM\Table()
  * @ORM\Entity
  */
-class City
+class Lake
 {
     /**
      * @var integer
@@ -31,9 +31,9 @@ class City
     /**
      * @var integer
      *
-     * @ORM\Column(name="area", type="integer")
+     * @ORM\Column(name="depth", type="integer")
      */
-    private $area;
+    private $depth;
 
 
     /**
@@ -50,7 +50,7 @@ class City
      * Set name
      *
      * @param string $name
-     * @return City
+     * @return Lake
      */
     public function setName($name)
     {
@@ -70,25 +70,25 @@ class City
     }
 
     /**
-     * Set area
+     * Set depth
      *
-     * @param integer $area
-     * @return City
+     * @param integer $depth
+     * @return Lake
      */
-    public function setArea($area)
+    public function setDepth($depth)
     {
-        $this->area = $area;
+        $this->depth = $depth;
 
         return $this;
     }
 
     /**
-     * Get area
+     * Get depth
      *
      * @return integer 
      */
-    public function getArea()
+    public function getDepth()
     {
-        return $this->area;
+        return $this->depth;
     }
 }
