@@ -75,7 +75,7 @@ class Gemstone
      * @param integer $weight_of_carats
      * @return Gemstone
      */
-    public function setCarats($weight_of_carats)
+    public function setWeight_of_carats($weight_of_carats)
     {
         $this->weight_of_carats = $weight_of_carats;
 
@@ -87,7 +87,7 @@ class Gemstone
      *
      * @return integer 
      */
-    public function getCarats()
+    public function getWeight_of_carats()
     {
         return $this->weight_of_carats;
     }
