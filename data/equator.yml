@@ -1,0 +1,8 @@
+#
+# Klasa: Equator
+# lista państw i ich powierzchnie w km^2
+#
+
+- { name: "Uganda", area: 236036 }
+- { name: "Gabon", area: 267667 }
+- { name: "Somalia", area: 637700 }
