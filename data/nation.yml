@@ -1,0 +1,8 @@
+#
+# Klasa: Nation
+# lista największych narodowości
+#
+
+- { name: "the Chinese people", number: 1347 }
+- { name: "the Indian people", number: 1205 }
+- { name: "Americans-USA", number: 314 }
