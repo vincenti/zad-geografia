@@ -72,7 +72,7 @@ class Cave
     /**
      * Set example
      *
-     * @param integer $example
+     * @param string $example
      * @return Cave
      */
     public function setExample($example)
@@ -85,7 +85,7 @@ class Cave
     /**
      * Get example
      *
-     * @return integer 
+     * @return string
      */
     public function getExample()
     {
