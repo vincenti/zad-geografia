@@ -1,0 +1,8 @@
+#
+# Klasa: Economic
+# ekonomia na świecie
+#
+
+- { name: "Australia", percent: 70 }
+- { name: "Austria", percent: 45 }
+- { name: "Brazil", percent: 53 }
