@@ -1,0 +1,8 @@
+#
+# Klasa: Desert
+# lista pustyn
+#
+
+- { name: "Sahara", length: 1234 }
+- { name: "Sarona", length: 9876 }
+- { name: "Gobi", length: 3434 }
