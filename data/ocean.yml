@@ -1,0 +1,8 @@
+#
+# Klasa: Ocean
+# nazwa glebokosc
+#
+
+- { name: "the Pacific", depth: 1234 }
+- { name: "the Atlantic", depth: 5678 }
+- { name: "the Arctic", depth: 91011 }
