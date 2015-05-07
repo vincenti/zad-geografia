@@ -5,6 +5,7 @@
 # then
 #    exit 1
 
+WHOAMI=`whoami`
 if [ `whoami` == "travis" ];
 then
     BASEDIR=`pwd`
