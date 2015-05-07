@@ -14,4 +14,8 @@ Testowanie tylko własnych stron:
     ./testuj.bash features/fixtures/river.feature
 
 
+Osoby, które się poprawiają umieszczają swoje testy w folderze:
 
+    features/fixtures2/
+
+Końcowy termin poprawy: 2015-05-14
