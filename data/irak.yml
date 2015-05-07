@@ -1,0 +1,8 @@
+#
+# Klasa: irak
+# Miasta iraku
+#
+
+- { name: "Bagdad", length: 123123 }
+- { name: "Mosul", length: 321321 }
+- { name: "Basra", length: 123123 }
