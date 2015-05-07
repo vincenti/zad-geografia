@@ -1,8 +1,0 @@
-#
-# Klasa: Rich
-# najbogatsze państwa świata
-#
-
-- { name: "China", value: 18 }
-- { name: "USA", value: 17 }
-- { name: "India", value: 16 }
