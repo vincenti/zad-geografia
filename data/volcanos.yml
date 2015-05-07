@@ -1,0 +1,8 @@
+#
+# Klasa: Volcano
+# wulkany
+#
+
+- { name: "Llullaillaco", height: 6723 }
+- { name: "Cotopaxi",     height: 5897 }
+- { name: "Misti",        height: 5825 }
