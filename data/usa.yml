@@ -3,6 +3,6 @@
 # ludnosc w mln
 #
 
-- { name: "New York", population: 8 }
-- { name: "Los Angeles", population: 4 }
-- { name: "Chicago", population: 3 }
+- { nazwa: "New York", population: 8 }
+- { nazwa: "Los Angeles", population: 4 }
+- { nazwa: "Chicago", population: 3 }
