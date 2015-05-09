@@ -1,0 +1,8 @@
+#
+# Klasa: City
+# ludnosc w mln
+#
+
+- { name: "New York", population: 8 }
+- { name: "Los Angeles", population: 4 }
+- { name: "Chicago", population: 3 }
