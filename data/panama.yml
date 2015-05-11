@@ -1,0 +1,8 @@
+#
+# Klasa: Panama
+# Miasta/Ludnosc
+#
+
+- { name: "San Miguelito", population: 430299 }
+- { name: "La Chorrera", population: 96676 }
+- { name: "Pacora", population: 127440 }
