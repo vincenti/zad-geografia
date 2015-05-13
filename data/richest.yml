@@ -1,0 +1,8 @@
+#
+# Klasa: Richest
+# najbogatsi na świecie
+#
+
+- { name: "China", value: 1 }
+- { name: "Usa", value: 2 }
+- { name: "India", value: 3 }
