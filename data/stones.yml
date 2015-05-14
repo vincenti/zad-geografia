@@ -1,0 +1,8 @@
+#
+# Klasa: Stone
+# lista kamieni
+#
+
+- { name: "Diamond", size: 41 }
+- { name: "Sapphire", size: 377 }
+- { name: "Crystal", size: 46 }
