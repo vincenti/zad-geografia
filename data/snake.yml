@@ -1,0 +1,7 @@
+#
+# Klasa: Snake
+#
+
+- { name: "Vipera", length: 75 }
+- { name: "Calliophis", length: 200 }
+- { name: "Zamenis", length: 225 }
