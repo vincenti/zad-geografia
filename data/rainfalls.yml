@@ -1,0 +1,3 @@
+- { city: "Rzeszow", rain: 300 }
+- { city: "Lublin", rain: 640 }
+- { city: "Przemysl", rain: 480 }
