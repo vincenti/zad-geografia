@@ -1,0 +1,8 @@
+#
+# Klasa: Zwierzeta
+# gromada
+#
+
+- { name: "Elephant", group: mammal  }
+- { name: "Herring", group: fish}
+- { name: "Aligator", area: reptile }
