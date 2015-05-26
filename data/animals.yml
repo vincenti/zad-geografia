@@ -3,6 +3,6 @@
 # gromada
 #
 
-- { name: "Elephant", group: mammal  }
-- { name: "Herring", group: fish}
-- { name: "Aligator", area: reptile }
+- { name: "Elephant", type: mammal  }
+- { name: "Herring", type: fish}
+- { name: "Aligator", type: reptile }
