@@ -1,0 +1,8 @@
+#
+# Klasa: Star
+# gwiazdy najbliższe Ziemi
+#
+
+- { name: "Sun", distance: 0.000016 }
+- { name: "Proxima Centauri", distance: 4.22 }
+- { name: "alfa Centauri A", distance: 4.37 }
