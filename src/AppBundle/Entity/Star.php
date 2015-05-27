@@ -29,9 +29,9 @@ class Star
     private $name;
 
     /**
-     * @var integer
+     * @var float
      *
-     * @ORM\Column(name="distance", type="integer")
+     * @ORM\Column(name="distance", type="float")
      */
     private $distance;
 
@@ -72,7 +72,7 @@ class Star
     /**
      * Set distance
      *
-     * @param integer $distance
+     * @param float $distance
      * @return Star
      */
     public function setDistance($distance)
@@ -85,7 +85,7 @@ class Star
     /**
      * Get distance
      *
-     * @return integer 
+     * @return float 
      */
     public function getDistance()
     {
