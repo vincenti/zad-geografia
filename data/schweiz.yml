@@ -1,8 +1,0 @@
-#
-# Klasa: Schweiz
-# Procentowy język ludności
-#
-
-- { name: "Niemiecki", percent: 72 }
-- { name: "Francuski", percent: 13 }
-- { name: "Włoski", percent: 6 }
