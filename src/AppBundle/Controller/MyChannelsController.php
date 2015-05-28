@@ -15,7 +15,7 @@ class MyChannelsController extends Controller
     {
         $em = $this->getDoctrine()->getManager();
 
-        $entities = $em->getRepository('AppBundle:Channesl')->findAll();
+        $entities = $em->getRepository('AppBundle:Channels')->findAll();
 
         return $this->render(
             'default/channels.html.twig',
