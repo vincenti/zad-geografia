@@ -1,0 +1,8 @@
+#
+# Klasa: Unemployment
+# średnie bezrobocie
+#
+
+- { name: "Zimbabwe", percent: 95 }
+- { name: "Turkmenistan", percent: 70 }
+- { name: "Poland", percent: 10 }
