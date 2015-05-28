@@ -1,0 +1,8 @@
+#
+# Klasa: River
+# lista rzek
+#
+
+- { name: "Winter1", sila: 222 }
+- { name: "Winter2", sila: 333 }
+- { name: "Winter3", sila: 444 }
