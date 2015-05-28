@@ -1,8 +1,0 @@
-#
-# Klasa: Zwierzeta
-# gromada
-#
-
-- { name: "Elephant", type: mammal  }
-- { name: "Herring", type: fish}
-- { name: "Aligator", type: reptile }
