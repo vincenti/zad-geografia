@@ -1,0 +1,8 @@
+#
+# Klasa: Water Channels
+# najdluzsze kanaly wodne
+#
+
+- { name: "Intercoastal Waterway", lenght: 4600 }
+- { name: "Kanał Wołżańsko- Bałtycki", lenght: 1100 }
+- { name: "Kanał Śródlądowy", lenght: 321 }
