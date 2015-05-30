@@ -1,0 +1,8 @@
+#
+# Klasa: Schweiz
+# procent jezykow w Szwajcarii
+#
+
+- { name: "Niemiecki", percent: 70 }
+- { name: "Francuski", percent: 25 }
+- { name: "Angielski", percent: 5 }
